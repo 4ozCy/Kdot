@@ -2,13 +2,12 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 _G.Primary = Color3.fromRGB(255, 255, 255)
 _G.Dark = Color3.fromRGB(0, 105, 148)
 ----------------------------------------------------------------------------------------------------------------------------------------
-_G.TieuDe = "Galaxy X Min Hub"
+_G.TieuDe = "euphoria hub"
 _G.ThongBaoChoose = "Blox Fruits"
 
-_G.Discord = "https://discord.com/invite/3pPEwMKqjD"
-_G.YouTube = "https://www.youtube.com/@EW-OS-RAD"
+_G.Discord = "https://discord.com/invite/tqnDqzmbxE"
 notis = require(game.ReplicatedStorage:WaitForChild("Notification"))
-notis.new("<Color=Red>Thank You Use Galaxy X Min Hub<Color=/>"):Display()
+notis.new("<Color=Red>Tryna strike a chord and it’s probably A minorrrrrrr<Color=/>"):Display()
 _G.SafeFarm = true
 assert(getrawmetatable)
     grm = getrawmetatable(game)
@@ -225,13 +224,13 @@ local keybind = keybind or Enum.KeyCode.RightControl
 local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 
 local Galaxy = Instance.new("ScreenGui")
-Galaxy.Name = "Galaxy"
+Galaxy.Name = "euphoria"
 Galaxy.Parent = game.CoreGui
 Galaxy.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local Main = Instance.new("Frame")
 Main.Name = "Main"
-Main.Parent = Galaxy
+Main.Parent = euphoria
 Main.ClipsDescendants = true
 Main.AnchorPoint = Vector2.new(0.5,0.5)
 Main.BackgroundColor3 = Color3.fromRGB(0, 105, 148)
@@ -287,7 +286,7 @@ ttittles.BackgroundTransparency = 1
 ttittles.Position = UDim2.new(0,30,0.05,0)
 ttittles.Size = UDim2.new(0, 255, 0.05, 25)
 ttittles.Font = Enum.Font.SourceSansBold
-ttittles.Text = "Galaxy X Min Hub [Free]"
+ttittles.Text = "euphoria hub"
 ttittles.TextSize = 15.000
 ttittles.TextColor3 = Color3.fromRGB(255, 255, 255)
 ttittles.TextXAlignment = Enum.TextXAlignment.Left
@@ -352,7 +351,7 @@ local Logo = Instance.new("ImageLabel")
 	Logo.BackgroundTransparency = 1
 	Logo.Position = UDim2.new(0, 10, 0, 10)
 	Logo.Size = UDim2.new(0, 120, 0, 120)
-	Logo.Image = "rbxassetid://17416719866"]]--
+	Logo.Image = "rbxassetid://"]]--
 local Tab = Instance.new("Frame")
 Tab.Name = "Tab"
 Tab.Parent = Main
