@@ -223,10 +223,10 @@ local currentpage = ""
 local keybind = keybind or Enum.KeyCode.RightControl
 local yoo = string.gsub(tostring(keybind),"Enum.KeyCode.","")
 
-local Galaxy = Instance.new("ScreenGui")
-Galaxy.Name = "euphoria"
-Galaxy.Parent = game.CoreGui
-Galaxy.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+local euphoria = Instance.new("ScreenGui")
+euphoria.Name = "euphoria"
+euphoria.Parent = game.CoreGui
+euphoria.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 local Main = Instance.new("Frame")
 Main.Name = "Main"
