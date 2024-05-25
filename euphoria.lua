@@ -351,7 +351,7 @@ local Logo = Instance.new("ImageLabel")
 	Logo.BackgroundTransparency = 1
 	Logo.Position = UDim2.new(0, 10, 0, 10)
 	Logo.Size = UDim2.new(0, 120, 0, 120)
-	Logo.Image = "rbxassetid://"]]--
+	Logo.Image = "rbxassetid://17605483479"]]--
 local Tab = Instance.new("Frame")
 Tab.Name = "Tab"
 Tab.Parent = Main
@@ -902,7 +902,7 @@ ImageButton.BackgroundTransparency = 1.000
 ImageButton.Position = UDim2.new(0, 357, 0, 3)
 ImageButton.Size = UDim2.new(0, 25, 0, 25)
 ImageButton.ZIndex = 2
-ImageButton.Image = "rbxassetid://17416719866"
+ImageButton.Image = "rbxassetid://17605483479"
 ImageButton.ImageColor3 = Color3.fromRGB(60,60,255)
 ImageButton.ImageRectOffset = Vector2.new(940, 784)
 ImageButton.ImageRectSize = Vector2.new(48, 48)
@@ -990,7 +990,7 @@ local TogglePadding = Instance.new("UIPadding")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 8)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://17416719866" 
+				imgLabelIcon.Image = "rbxassetid://17605483479" 
 
 Title.Parent = Button
 Title.BackgroundColor3 = Color3.fromRGB(150, 150, 150)
@@ -1115,7 +1115,7 @@ local imgLabelIcon = Instance.new("ImageLabel")
 				imgLabelIcon.BackgroundTransparency = 1.000
 				imgLabelIcon.Position = UDim2.new(0, 5, 0, 3)
 				imgLabelIcon.Size = UDim2.new(0, 30, 0, 30)
-				imgLabelIcon.Image = "rbxassetid://17416719866" 
+				imgLabelIcon.Image = "rbxassetid://17605483479" 
 
 DropTitle.Name = "DropTitle"
 DropTitle.Parent = Dropdown
@@ -1380,7 +1380,7 @@ end
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://17416719866"
+                ImageLabel.Image = "rbxassetid://17605483479"
                 
                 
                 
@@ -1706,7 +1706,7 @@ sliderrcorner.Parent = sliderr
                 ImageLabel.BorderSizePixel = 0
                 ImageLabel.Position = UDim2.new(0, 7.5, 0, 7.5)
                 ImageLabel.Size = UDim2.new(0, 30, 0, 30)
-                ImageLabel.Image = "rbxassetid://17416719866"
+                ImageLabel.Image = "rbxassetid://17605483479"
                 
                 
                 
@@ -2302,7 +2302,7 @@ if game.PlaceId == 2753915549 then
     elseif game.PlaceId == 7449423635 then
         World3 = true
     else
-    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://17416719866", {
+    Notification.Notify("Notification", "Game Not Support :( | Only Blox Fruits.", "rbxassetid://17605483479", {
     Duration = 10,       
     Main = {
         Rounding = true,
