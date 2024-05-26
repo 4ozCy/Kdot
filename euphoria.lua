@@ -17376,7 +17376,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=17416719866"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=17605483479"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -17386,14 +17386,14 @@ UIStroke.Color = Color3.fromRGB(0, 105, 148)
 UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 ----------------------------------------------------------------------------------------------------------------------------------------
-Notification.Notify("Notification", "i hate the way that you walk the way that you talk", "rbxassetid://17416719866", {
+Notification.Notify("Notification", "i hate the way that you walk the way that you talk", "rbxassetid://17605483479", {
     Duration = 5,       
     Main = {
         Rounding = true,
     }
     });
 wait(6)
-Notification.Notify("Notification", "If You Use Fluxus Galaxy X Min Hub Will Very Good", "rbxassetid://17416719866", {
+Notification.Notify("Notification", "we don't wanna you say nigger no more", "rbxassetid://17605483479", {
     Duration = 10,       
     Main = {
         Rounding = true,
