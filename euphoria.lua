@@ -3709,40 +3709,6 @@ spawn(function()
     end
 end)
 
-local DamageModule = require(game:GetService("ReplicatedStorage").Effect.Container.Misc.Damage)
-	local old = DamageModule.Run
-	getgenv().FakeDamage = function(Damage)
-    DamageModule.Run = function(...)
-        args = {...}
-        if Damage then
-            args[1]['Value'] = tostring(Damage)
-        end
-        return old(unpack(args))
-    end
-end
-	function Galaxy(text)
-		local Notification = require(game.ReplicatedStorage.Notification)
-		local notification = Notification.new(text)
-		notification.Duration = 4
-		notification:Display()
-	end
-	local function tablefound(ta, object)
-		for i,v in pairs(ta) do
-			if v == object then
-				return true
-			end
-		end
-		return false
-	end
-
-function isnil(thing)
-    return (thing == nil)
-end
-local function round(n)
-    return math.floor(tonumber(n) + 0.5)
-end
-Number = math.random(1, 1000000)
-
 function UpdateIslandMirageESP() 
     for i,v in pairs(game:GetService("Workspace")["_WorldOrigin"].Locations:GetChildren()) do
         pcall(function()
