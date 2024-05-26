@@ -2,8 +2,7 @@ repeat wait() until game:IsLoaded() and game.Players.LocalPlayer
 _G.Primary = Color3.fromRGB(255, 255, 255)
 _G.Dark = Color3.fromRGB(0, 105, 148)
 ----------------------------------------------------------------------------------------------------------------------------------------
-_G.TieuDe = "euphoria hub"
-_G.ThongBaoChoose = "Blox Fruits"
+_G.TieuDe = "euphoria"
 
 _G.Discord = "https://discord.com/invite/tqnDqzmbxE"
 notis = require(game.ReplicatedStorage:WaitForChild("Notification"))
@@ -17361,7 +17360,6 @@ spawn(function()
         end
     end)
     end)
-FakeDamage("Galaxy X Min Hub")
 ----------------------------------------------------------------------------------------------------------------------------------------
 local ScreenGui1 = Instance.new("ScreenGui")
 local ImageButton1 = Instance.new("ImageButton")
@@ -17388,7 +17386,7 @@ UIStroke.Color = Color3.fromRGB(0, 105, 148)
 UIStroke.Thickness = 1.5
 UIStroke.Parent = ImageButton1
 ----------------------------------------------------------------------------------------------------------------------------------------
-Notification.Notify("Notification", "Thank You For Using Galaxy X Min Hub", "rbxassetid://17416719866", {
+Notification.Notify("Notification", "i hate the way that you walk the way that you talk", "rbxassetid://17416719866", {
     Duration = 5,       
     Main = {
         Rounding = true,
